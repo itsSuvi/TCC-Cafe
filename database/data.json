@@ -1,0 +1,1569 @@
+{
+  "categories": [
+    {
+      "id": "cat-desserts",
+      "name": "Signature Desserts",
+      "slug": "signature-desserts",
+      "description": "Freshly handcrafted decadent chocolate waffles, fantasy cups & artisan jars",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+      "order": 1,
+      "isActive": true
+    },
+    {
+      "id": "cat-quick-bites",
+      "name": "Quick Bites",
+      "slug": "quick-bites",
+      "description": "Crispy baked masala patties, freshly oven-baked pizzas & Korean buns",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+      "order": 2,
+      "isActive": true
+    },
+    {
+      "id": "cat-sandwiches-maggi",
+      "name": "Sandwiches & Maggie",
+      "slug": "sandwiches-maggi",
+      "description": "Cheesy grilled artisanal sandwiches & steaming piping-hot Maggie bowls",
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80",
+      "order": 3,
+      "isActive": true
+    },
+    {
+      "id": "cat-beverages-pastries",
+      "name": "Beverages & Small Eats",
+      "slug": "beverages-small-eats",
+      "description": "Handcrafted iced coffees, cooling mojitos, brownies & custom cakes",
+      "image": "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80",
+      "order": 4,
+      "isActive": true
+    },
+    {
+      "id": "cat-burgers",
+      "name": "Burgers",
+      "slug": "burgers",
+      "description": "Juicy vegetable, paneer & melted cheddar burgers served on toasted brioche",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",
+      "order": 5,
+      "isActive": true
+    },
+    {
+      "id": "cat-fries",
+      "name": "French Fries",
+      "slug": "french-fries",
+      "description": "Golden crunchy potato fries tossed in aromatic seasonings & molten cheese",
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80",
+      "order": 6,
+      "isActive": true
+    },
+    {
+      "id": "cat-momos",
+      "name": "Momos",
+      "slug": "momos",
+      "description": "Steamed, golden fried & crispy kurkure momos served with fiery red chutney",
+      "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=800&q=80",
+      "order": 7,
+      "isActive": true
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-sprinkled-baby",
+      "name": "Sprinkled Baby",
+      "slug": "sprinkled-baby",
+      "description": "Crispy warm mini waffle layered with milk chocolate fudge and vibrant rainbow candy sprinkles.",
+      "price": 49,
+      "originalPrice": 65,
+      "categoryId": "cat-desserts",
+      "categoryName": "Signature Desserts",
+      "image": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 12,
+      "ingredients": [
+        "Waffle Batter",
+        "Belgian Milk Chocolate",
+        "Rainbow Sprinkles",
+        "Butter"
+      ],
+      "rating": 4.8,
+      "ratingCount": 84,
+      "customizations": [
+        {
+          "id": "cust-icecream",
+          "title": "Add Ice Cream Scoop",
+          "type": "radio",
+          "options": [
+            {
+              "id": "opt-none",
+              "name": "No Ice Cream",
+              "price": 0
+            },
+            {
+              "id": "opt-vanilla",
+              "name": "Vanilla Ice Cream Scoop (+₹25)",
+              "price": 25
+            },
+            {
+              "id": "opt-choc",
+              "name": "Chocolate Ice Cream Scoop (+₹30)",
+              "price": 30
+            }
+          ]
+        },
+        {
+          "id": "cust-toppings",
+          "title": "Extra Indulgence",
+          "type": "checkbox",
+          "options": [
+            {
+              "id": "opt-extra-choc",
+              "name": "Extra Chocolate Drizzle (+₹20)",
+              "price": 20
+            },
+            {
+              "id": "opt-gems",
+              "name": "Extra Gems (+₹15)",
+              "price": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prod-dark-white-delight",
+      "name": "Dark & White Delight",
+      "slug": "dark-white-delight",
+      "description": "Decadent balance of rich 70% dark chocolate and creamy Swiss white chocolate ganache on a golden waffle.",
+      "price": 59,
+      "originalPrice": 75,
+      "categoryId": "cat-desserts",
+      "categoryName": "Signature Desserts",
+      "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 12,
+      "ingredients": [
+        "Belgian Dark Ganache",
+        "Swiss White Chocolate",
+        "Crispy Golden Waffle"
+      ],
+      "rating": 4.9,
+      "ratingCount": 112
+    },
+    {
+      "id": "prod-dark-milk-delight",
+      "name": "Dark & Milk Delight",
+      "slug": "dark-milk-delight",
+      "description": "Dual layer of velvety dark chocolate and soothing milk chocolate poured generously over freshly pressed waffle.",
+      "price": 59,
+      "originalPrice": 75,
+      "categoryId": "cat-desserts",
+      "categoryName": "Signature Desserts",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 12,
+      "ingredients": [
+        "Dark Truffle Sauce",
+        "Milk Chocolate Sauce",
+        "Choco Crunch"
+      ],
+      "rating": 4.7,
+      "ratingCount": 68
+    },
+    {
+      "id": "prod-oreo-dark-crunch",
+      "name": "Oreo Dark Crunch",
+      "slug": "oreo-dark-crunch",
+      "description": "Loaded with crushed Oreo cookies, dark chocolate mousse, chocolate shavings and Oreo biscuits on top.",
+      "price": 69,
+      "originalPrice": 89,
+      "categoryId": "cat-desserts",
+      "categoryName": "Signature Desserts",
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 15,
+      "ingredients": [
+        "Oreo Cookie Crust",
+        "Dark Chocolate Melt",
+        "Vanilla Whipped Mousse",
+        "Choco Chips"
+      ],
+      "rating": 5,
+      "ratingCount": 240,
+      "customizations": [
+        {
+          "id": "cust-icecream",
+          "title": "Add Ice Cream Scoop",
+          "type": "radio",
+          "options": [
+            {
+              "id": "opt-none",
+              "name": "No Ice Cream",
+              "price": 0
+            },
+            {
+              "id": "opt-vanilla",
+              "name": "Vanilla Ice Cream Scoop (+₹25)",
+              "price": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prod-dark-chocolate-fantasy",
+      "name": "Dark Chocolate Fantasy",
+      "slug": "dark-chocolate-fantasy",
+      "description": "For genuine dark chocolate connoisseurs: pure intense dark cocoa molten cake smothered with dark chocolate shavings.",
+      "price": 69,
+      "originalPrice": 89,
+      "categoryId": "cat-desserts",
+      "categoryName": "Signature Desserts",
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 15,
+      "ingredients": [
+        "72% Dark Cocoa",
+        "Dark Ganache",
+        "Cocoa Nibs",
+        "Molten Lava Core"
+      ],
+      "rating": 4.9,
+      "ratingCount": 145
+    },
+    {
+      "id": "prod-milk-chocolate-fantasy",
+      "name": "Milk Chocolate Fantasy",
+      "slug": "milk-chocolate-fantasy",
+      "description": "Silky smooth sweet milk chocolate lava cake topped with warm melted fudge and crispy chocolate pearls.",
+      "price": 69,
+      "originalPrice": 89,
+      "categoryId": "cat-desserts",
+      "categoryName": "Signature Desserts",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 15,
+      "ingredients": [
+        "Milk Chocolate Core",
+        "Warm Fudge Sauce",
+        "Chocolate Crispies"
+      ],
+      "rating": 4.8,
+      "ratingCount": 95
+    },
+    {
+      "id": "prod-sweetheart",
+      "name": "Sweetheart",
+      "slug": "sweetheart",
+      "description": "Romantic heart-crafted dessert with strawberries, velvety white chocolate cream and milk chocolate heart curls.",
+      "price": 69,
+      "originalPrice": 89,
+      "categoryId": "cat-desserts",
+      "categoryName": "Signature Desserts",
+      "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 14,
+      "ingredients": [
+        "Strawberry Compote",
+        "White Chocolate Ganache",
+        "Ruby Choco Curls"
+      ],
+      "rating": 4.9,
+      "ratingCount": 104
+    },
+    {
+      "id": "prod-im-a-gems-baby",
+      "name": "I'm a Gems Baby",
+      "slug": "im-a-gems-baby",
+      "description": "Crunchy colorful Cadbury Gems embedded over molten chocolate waffle with caramel drizzle.",
+      "price": 69,
+      "originalPrice": 89,
+      "categoryId": "cat-desserts",
+      "categoryName": "Signature Desserts",
+      "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 12,
+      "ingredients": [
+        "Cadbury Gems",
+        "Milk Chocolate Sauce",
+        "Butter Waffle",
+        "Caramel Swirl"
+      ],
+      "rating": 4.8,
+      "ratingCount": 78
+    },
+    {
+      "id": "prod-triple-chocolate",
+      "name": "Triple Chocolate",
+      "slug": "triple-chocolate",
+      "description": "THE SIGNATURE MASTERPIECE: Trio of dark, milk and white chocolate layers crowned with chocolate fudge bites.",
+      "price": 69,
+      "originalPrice": 95,
+      "categoryId": "cat-desserts",
+      "categoryName": "Signature Desserts",
+      "image": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 15,
+      "ingredients": [
+        "Belgian Dark 70%",
+        "Swiss Milk Chocolate",
+        "Velvety White Truffle",
+        "Brownie Chunks"
+      ],
+      "rating": 5,
+      "ratingCount": 310,
+      "customizations": [
+        {
+          "id": "cust-addon",
+          "title": "Chef Recommended Addon",
+          "type": "checkbox",
+          "options": [
+            {
+              "id": "opt-brownie-bite",
+              "name": "Extra Brownie Cubes (+₹25)",
+              "price": 25
+            },
+            {
+              "id": "opt-icecream",
+              "name": "Vanilla Bean Ice Cream (+₹25)",
+              "price": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prod-naughty-nutella",
+      "name": "Naughty Nutella",
+      "slug": "naughty-nutella",
+      "description": "Generous layers of authentic creamy Hazelnut Nutella spread topped with roasted crushed hazelnuts.",
+      "price": 69,
+      "originalPrice": 95,
+      "categoryId": "cat-desserts",
+      "categoryName": "Signature Desserts",
+      "image": "https://images.unsplash.com/photo-1514056052883-d017fddd0426?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 12,
+      "ingredients": [
+        "Nutella Hazelnut Spread",
+        "Roasted Hazelnut Slivers",
+        "Chocolate Drizzle"
+      ],
+      "rating": 5,
+      "ratingCount": 275
+    },
+    {
+      "id": "prod-kitkat-ish",
+      "name": "KitKat-ish",
+      "slug": "kitkat-ish",
+      "description": "Crispy wafer fingers of KitKat crushed over warm chocolate ganache and chocolate curls.",
+      "price": 69,
+      "originalPrice": 89,
+      "categoryId": "cat-desserts",
+      "categoryName": "Signature Desserts",
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 12,
+      "ingredients": [
+        "KitKat Wafers",
+        "Milk Chocolate Sauce",
+        "Crispy Pearls"
+      ],
+      "rating": 4.8,
+      "ratingCount": 130
+    },
+    {
+      "id": "prod-regular-patties",
+      "name": "Regular Patties",
+      "slug": "regular-patties",
+      "description": "Golden flaky puff pastry baked to golden perfection with savory spiced potato filling.",
+      "price": 20,
+      "originalPrice": 25,
+      "categoryId": "cat-quick-bites",
+      "categoryName": "Quick Bites",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 8,
+      "ingredients": [
+        "Flaky Pastry Crust",
+        "Spiced Mashed Potato",
+        "Coriander",
+        "Herbs"
+      ],
+      "rating": 4.6,
+      "ratingCount": 140
+    },
+    {
+      "id": "prod-masala-patties",
+      "name": "Masala Patties",
+      "slug": "masala-patties",
+      "description": "Our top-rated crispy puff stuffed with zesty Indian spiced potato and fresh herbs.",
+      "price": 25,
+      "originalPrice": 30,
+      "categoryId": "cat-quick-bites",
+      "categoryName": "Quick Bites",
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 8,
+      "ingredients": [
+        "Multi-layered Puff",
+        "Special Garam Masala Potato",
+        "Green Chillies",
+        "Mint Dressing"
+      ],
+      "rating": 4.9,
+      "ratingCount": 320
+    },
+    {
+      "id": "prod-paneer-patties",
+      "name": "Paneer Patties",
+      "slug": "paneer-patties",
+      "description": "Flaky pastry bursting with soft cottage cheese (paneer) tossed in tandoori spices.",
+      "price": 30,
+      "originalPrice": 40,
+      "categoryId": "cat-quick-bites",
+      "categoryName": "Quick Bites",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 10,
+      "ingredients": [
+        "Fresh Malai Paneer",
+        "Crisp Puff Layer",
+        "Onion",
+        "Special Tandoori Masala"
+      ],
+      "rating": 4.9,
+      "ratingCount": 210
+    },
+    {
+      "id": "prod-cheese-masala-patties",
+      "name": "Cheese Masala Patties",
+      "slug": "cheese-masala-patties",
+      "description": "Melting mozzarella and cheddar cheese blended inside piping hot masala puff pastry.",
+      "price": 35,
+      "originalPrice": 45,
+      "categoryId": "cat-quick-bites",
+      "categoryName": "Quick Bites",
+      "image": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 10,
+      "ingredients": [
+        "Mozzarella Cheese",
+        "Cheddar Blend",
+        "Masala Filling",
+        "Butter Crust"
+      ],
+      "rating": 5,
+      "ratingCount": 185
+    },
+    {
+      "id": "prod-regular-veg-pizza",
+      "name": "Regular Veg Pizza",
+      "slug": "regular-veg-pizza",
+      "description": "Hand-stretched personal 7-inch pizza baked with Italian tomato herb sauce, capsicum, onion and mozzarella.",
+      "price": 59,
+      "originalPrice": 79,
+      "categoryId": "cat-quick-bites",
+      "categoryName": "Quick Bites",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 15,
+      "ingredients": [
+        "Pizza Dough",
+        "San Marzano Tomato Sauce",
+        "Mozzarella",
+        "Capsicum",
+        "Onions",
+        "Oregano"
+      ],
+      "rating": 4.8,
+      "ratingCount": 190,
+      "customizations": [
+        {
+          "id": "cust-cheese",
+          "title": "Cheese & Crust",
+          "type": "checkbox",
+          "options": [
+            {
+              "id": "opt-extra-cheese",
+              "name": "Extra Mozzarella Cheese (+₹20)",
+              "price": 20
+            },
+            {
+              "id": "opt-chilli-flakes",
+              "name": "Extra Oregano & Chilli Herb Packets (+₹0)",
+              "price": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prod-korean-bun-1pc",
+      "name": "Korean Bun (1 Pc)",
+      "slug": "korean-bun-1-pc",
+      "description": "Soft pull-apart brioche bun infused with sweet cream cheese custard and savory garlic herb butter.",
+      "price": 39,
+      "originalPrice": 49,
+      "categoryId": "cat-quick-bites",
+      "categoryName": "Quick Bites",
+      "image": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 10,
+      "ingredients": [
+        "Brioche Bun",
+        "Garlic Butter Glaze",
+        "Sweet Cream Cheese",
+        "Parsley"
+      ],
+      "rating": 4.9,
+      "ratingCount": 165
+    },
+    {
+      "id": "prod-korean-bun-2pcs",
+      "name": "Korean Bun (2 Pcs)",
+      "slug": "korean-bun-2-pcs",
+      "description": "Twin portion of Korean style cream cheese garlic buns — crispy outside, melt-in-mouth creamy inside.",
+      "price": 59,
+      "originalPrice": 78,
+      "categoryId": "cat-quick-bites",
+      "categoryName": "Quick Bites",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 12,
+      "ingredients": [
+        "2x Brioche Buns",
+        "Garlic Butter Glaze",
+        "Sweet Cream Cheese",
+        "Parsley"
+      ],
+      "rating": 4.9,
+      "ratingCount": 140
+    },
+    {
+      "id": "prod-paneer-pizza",
+      "name": "Paneer Pizza",
+      "slug": "paneer-pizza",
+      "description": "Golden crust topped with marinated tandoori paneer cubes, crunchy peppers, onions and melted cheese blend.",
+      "price": 69,
+      "originalPrice": 89,
+      "categoryId": "cat-quick-bites",
+      "categoryName": "Quick Bites",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 15,
+      "ingredients": [
+        "Tandoori Spiced Paneer",
+        "Mozzarella",
+        "Bell Peppers",
+        "Red Onion",
+        "Italian Herbs"
+      ],
+      "rating": 4.8,
+      "ratingCount": 115
+    },
+    {
+      "id": "prod-veg-sandwich",
+      "name": "Veg Sandwich",
+      "slug": "veg-sandwich",
+      "description": "Fresh white bread slices layered with garden cucumber, tomatoes, mint chutney and mild house spices.",
+      "price": 39,
+      "originalPrice": 49,
+      "categoryId": "cat-sandwiches-maggi",
+      "categoryName": "Sandwiches & Maggie",
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 10,
+      "ingredients": [
+        "Sandwich Bread",
+        "Cucumber",
+        "Tomato",
+        "Green Mint Chutney",
+        "Chat Masala"
+      ],
+      "rating": 4.7,
+      "ratingCount": 88
+    },
+    {
+      "id": "prod-cheese-sandwich",
+      "name": "Cheese Sandwich",
+      "slug": "cheese-sandwich",
+      "description": "Crispy butter toasted sandwich overflowing with hot melted cheddar and mozzarella cheese.",
+      "price": 59,
+      "originalPrice": 75,
+      "categoryId": "cat-sandwiches-maggi",
+      "categoryName": "Sandwiches & Maggie",
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 12,
+      "ingredients": [
+        "Cheddar Cheese",
+        "Mozzarella",
+        "Salted Butter",
+        "Herb Crust"
+      ],
+      "rating": 4.8,
+      "ratingCount": 96
+    },
+    {
+      "id": "prod-paneer-sandwich",
+      "name": "Paneer Sandwich",
+      "slug": "paneer-sandwich",
+      "description": "Grilled sandwich packed with juicy seasoned cottage cheese cubes, sweet corn and spicy house mayo.",
+      "price": 59,
+      "originalPrice": 75,
+      "categoryId": "cat-sandwiches-maggi",
+      "categoryName": "Sandwiches & Maggie",
+      "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 12,
+      "ingredients": [
+        "Marinated Paneer",
+        "Crunchy Capsicum",
+        "Tandoori Mayo",
+        "Grilled Bread"
+      ],
+      "rating": 4.8,
+      "ratingCount": 110
+    },
+    {
+      "id": "prod-corn-cheese-sandwich",
+      "name": "Corn Cheese Sandwich",
+      "slug": "corn-cheese-sandwich",
+      "description": "Sweet American golden corn kernels folded with gooey cheese and Italian oregano herbs between crispy grilled bread.",
+      "price": 59,
+      "originalPrice": 75,
+      "categoryId": "cat-sandwiches-maggi",
+      "categoryName": "Sandwiches & Maggie",
+      "image": "https://images.unsplash.com/photo-1528736235302-52922df5c122?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 12,
+      "ingredients": [
+        "Sweet Corn",
+        "Mozzarella & Cheddar",
+        "Black Pepper",
+        "Butter Toast"
+      ],
+      "rating": 4.9,
+      "ratingCount": 175
+    },
+    {
+      "id": "prod-tandoori-sandwich",
+      "name": "Tandoori Sandwich",
+      "slug": "tandoori-sandwich",
+      "description": "Smoky tandoori paneer & crunchy veggies with spicy chipotle tandoori sauce grilled to perfection.",
+      "price": 69,
+      "originalPrice": 85,
+      "categoryId": "cat-sandwiches-maggi",
+      "categoryName": "Sandwiches & Maggie",
+      "image": "https://images.unsplash.com/photo-1539252554453-80ab65ce3586?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 12,
+      "ingredients": [
+        "Smoky Tandoori Paneer",
+        "Tandoori Dressing",
+        "Onions",
+        "Capsicum",
+        "Cheese"
+      ],
+      "rating": 4.9,
+      "ratingCount": 154
+    },
+    {
+      "id": "prod-veg-maggie",
+      "name": "Veg Maggie",
+      "slug": "veg-maggie",
+      "description": "The ultimate comforting Maggi noodles cooked with diced onions, tomatoes, green peas and special tastemaker.",
+      "price": 39,
+      "originalPrice": 49,
+      "categoryId": "cat-sandwiches-maggi",
+      "categoryName": "Sandwiches & Maggie",
+      "image": "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 10,
+      "ingredients": [
+        "Maggi Noodles",
+        "Green Peas",
+        "Carrots",
+        "Tastemaker Spice"
+      ],
+      "rating": 4.7,
+      "ratingCount": 220
+    },
+    {
+      "id": "prod-paneer-maggie",
+      "name": "Paneer Maggie",
+      "slug": "paneer-maggie",
+      "description": "Hot steaming bowl of spiced Maggi noodles enriched with tender sauteed paneer cubes and butter.",
+      "price": 59,
+      "originalPrice": 75,
+      "categoryId": "cat-sandwiches-maggi",
+      "categoryName": "Sandwiches & Maggie",
+      "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 12,
+      "ingredients": [
+        "Fresh Paneer Cubes",
+        "Maggi Noodles",
+        "Butter",
+        "House Spices"
+      ],
+      "rating": 4.8,
+      "ratingCount": 130
+    },
+    {
+      "id": "prod-cheese-maggie",
+      "name": "Cheese Maggie",
+      "slug": "cheese-maggie",
+      "description": "Piping hot Maggi smothered in melted creamy cheese and herbs — comforting, rich and satisfying.",
+      "price": 59,
+      "originalPrice": 75,
+      "categoryId": "cat-sandwiches-maggi",
+      "categoryName": "Sandwiches & Maggie",
+      "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 12,
+      "ingredients": [
+        "Melted Processed Cheese",
+        "Maggi Noodles",
+        "Chilli Flakes",
+        "Butter"
+      ],
+      "rating": 4.9,
+      "ratingCount": 290
+    },
+    {
+      "id": "prod-tea",
+      "name": "Tea (Special Chai)",
+      "slug": "tea",
+      "description": "Classic aromatic Indian milk chai brewed fresh with crushed ginger and fragrant green cardamom.",
+      "price": 15,
+      "originalPrice": 20,
+      "categoryId": "cat-beverages-pastries",
+      "categoryName": "Beverages & Small Eats",
+      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 5,
+      "ingredients": [
+        "Assam Black Tea",
+        "Fresh Milk",
+        "Cardamom",
+        "Ginger"
+      ],
+      "rating": 4.9,
+      "ratingCount": 380
+    },
+    {
+      "id": "prod-hot-coffee",
+      "name": "Hot Coffee",
+      "slug": "hot-coffee",
+      "description": "Freshly frothed espresso coffee with velvety steamed milk and a dusting of cocoa.",
+      "price": 30,
+      "originalPrice": 40,
+      "categoryId": "cat-beverages-pastries",
+      "categoryName": "Beverages & Small Eats",
+      "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 6,
+      "ingredients": [
+        "Roasted Coffee Beans",
+        "Steamed Milk",
+        "Cocoa Dust"
+      ],
+      "rating": 4.7,
+      "ratingCount": 195
+    },
+    {
+      "id": "prod-cold-coffee",
+      "name": "Cold Coffee",
+      "slug": "cold-coffee",
+      "description": "Classic thick creamy blended cold coffee served chilled with chocolate drizzle inside the glass.",
+      "price": 49,
+      "originalPrice": 65,
+      "categoryId": "cat-beverages-pastries",
+      "categoryName": "Beverages & Small Eats",
+      "image": "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 8,
+      "ingredients": [
+        "Espresso Decoction",
+        "Chilled Milk",
+        "Vanilla Ice Cream Base",
+        "Hershey Chocolate Syrup"
+      ],
+      "rating": 5,
+      "ratingCount": 420,
+      "customizations": [
+        {
+          "id": "cust-icecream",
+          "title": "Add Vanilla Ice Cream Float",
+          "type": "checkbox",
+          "options": [
+            {
+              "id": "opt-icecream-float",
+              "name": "Add Ice Cream Scoop on Top (+₹20)",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prod-mango-shake",
+      "name": "Mango Shake",
+      "slug": "mango-shake",
+      "description": "Rich tropical Alphonso mango pulp blended with rich milk, served ice-cold and garnished with mango chunks.",
+      "price": 30,
+      "originalPrice": 45,
+      "categoryId": "cat-beverages-pastries",
+      "categoryName": "Beverages & Small Eats",
+      "image": "https://images.unsplash.com/photo-1546173159-315724a31d90?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 8,
+      "ingredients": [
+        "Alphonso Mango Pulp",
+        "Whole Milk",
+        "Sugar",
+        "Garnish"
+      ],
+      "rating": 4.8,
+      "ratingCount": 160
+    },
+    {
+      "id": "prod-lassi",
+      "name": "Lassi",
+      "slug": "lassi",
+      "description": "Traditional Punjabi sweet curd lassi whipped silky smooth with rose water and topped with malai.",
+      "price": 30,
+      "originalPrice": 40,
+      "categoryId": "cat-beverages-pastries",
+      "categoryName": "Beverages & Small Eats",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 6,
+      "ingredients": [
+        "Fresh Thick Yogurt (Dahi)",
+        "Cardamom",
+        "Rose Water",
+        "Malai"
+      ],
+      "rating": 4.7,
+      "ratingCount": 90
+    },
+    {
+      "id": "prod-mojito",
+      "name": "Virgin Mint Mojito",
+      "slug": "mojito",
+      "description": "Zesty sparkling cooler with freshly muddled garden mint, fresh lime wedges and bubbly soda.",
+      "price": 49,
+      "originalPrice": 65,
+      "categoryId": "cat-beverages-pastries",
+      "categoryName": "Beverages & Small Eats",
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 6,
+      "ingredients": [
+        "Fresh Mint Leaves",
+        "Key Lime Wedges",
+        "Sparkling Soda",
+        "Cane Sugar Syrup"
+      ],
+      "rating": 4.9,
+      "ratingCount": 215
+    },
+    {
+      "id": "prod-blue-lagoon",
+      "name": "Blue Lagoon",
+      "slug": "blue-lagoon",
+      "description": "Vibrant electric blue curacao mocktail with tangy lemon juice, fizz and crushed ice.",
+      "price": 49,
+      "originalPrice": 65,
+      "categoryId": "cat-beverages-pastries",
+      "categoryName": "Beverages & Small Eats",
+      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 6,
+      "ingredients": [
+        "Blue Curacao Syrup",
+        "Lemon Fizz",
+        "Mint Garnish",
+        "Crushed Ice"
+      ],
+      "rating": 4.8,
+      "ratingCount": 140
+    },
+    {
+      "id": "prod-pastries-pineapple",
+      "name": "Patties / Pastries (Pineapple, etc.)",
+      "slug": "pastries-pineapple",
+      "description": "Light sponge cake infused with juicy pineapple fruit chunks, vanilla whipped cream and cherries.",
+      "price": 39,
+      "originalPrice": 50,
+      "categoryId": "cat-beverages-pastries",
+      "categoryName": "Beverages & Small Eats",
+      "image": "https://images.unsplash.com/photo-1535141192574-5d4897c13136?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 5,
+      "ingredients": [
+        "Vanilla Sponge",
+        "Pineapple Compote",
+        "Whipped Cream",
+        "Glace Cherry"
+      ],
+      "rating": 4.7,
+      "ratingCount": 110
+    },
+    {
+      "id": "prod-chocolate-pastry",
+      "name": "Chocolate Pastry",
+      "slug": "chocolate-pastry",
+      "description": "Decadent slice of dark chocolate sponge layered with pure truffle ganache and choco flakes.",
+      "price": 49,
+      "originalPrice": 65,
+      "categoryId": "cat-beverages-pastries",
+      "categoryName": "Beverages & Small Eats",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 5,
+      "ingredients": [
+        "Dark Truffle Ganache",
+        "Chocolate Sponge",
+        "Chocolate Curls"
+      ],
+      "rating": 4.9,
+      "ratingCount": 230
+    },
+    {
+      "id": "prod-hot-chocolate-brownie-cup",
+      "name": "Hot Chocolate Brownie Cup",
+      "slug": "hot-chocolate-brownie-cup",
+      "description": "Warm, gooey fudgy walnut brownie drenched in steaming dark chocolate syrup in a handy takeaway cup.",
+      "price": 49,
+      "originalPrice": 65,
+      "categoryId": "cat-beverages-pastries",
+      "categoryName": "Beverages & Small Eats",
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 8,
+      "ingredients": [
+        "Fudge Brownie",
+        "Hot Chocolate Ganache",
+        "Choco Pearls"
+      ],
+      "rating": 4.9,
+      "ratingCount": 280
+    },
+    {
+      "id": "prod-brownie-tub",
+      "name": "Brownie Tub",
+      "slug": "brownie-tub",
+      "description": "Indulgent gourmet dessert tub filled with layered brownie bites, milk chocolate mousse and choco chips.",
+      "price": 59,
+      "originalPrice": 79,
+      "categoryId": "cat-beverages-pastries",
+      "categoryName": "Beverages & Small Eats",
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 6,
+      "ingredients": [
+        "Belgian Brownie Cubes",
+        "Chocolate Mousse",
+        "Dark Chips",
+        "Caramel swirl"
+      ],
+      "rating": 5,
+      "ratingCount": 310
+    },
+    {
+      "id": "prod-cakes-kg",
+      "name": "Custom Celebration Cakes",
+      "slug": "cakes-kg",
+      "description": "Freshly baked celebration cakes (Chocolate Truffle, Black Forest, Red Velvet, Butterscotch). Base price ₹600/kg.",
+      "price": 600,
+      "originalPrice": 750,
+      "categoryId": "cat-beverages-pastries",
+      "categoryName": "Beverages & Small Eats",
+      "image": "https://images.unsplash.com/photo-1535141192574-5d4897c13136?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 60,
+      "ingredients": [
+        "Artisan Sponge",
+        "Premium Buttercream/Truffle",
+        "Custom Cake Message Plaque"
+      ],
+      "rating": 5,
+      "ratingCount": 95,
+      "customizations": [
+        {
+          "id": "cust-weight",
+          "title": "Cake Weight",
+          "type": "radio",
+          "options": [
+            {
+              "id": "opt-half-kg",
+              "name": "0.5 kg (-₹250)",
+              "price": -250
+            },
+            {
+              "id": "opt-one-kg",
+              "name": "1 kg (Standard ₹600)",
+              "price": 0
+            },
+            {
+              "id": "opt-two-kg",
+              "name": "2 kg (+₹550)",
+              "price": 550
+            }
+          ]
+        },
+        {
+          "id": "cust-flavor",
+          "title": "Choose Flavor",
+          "type": "radio",
+          "options": [
+            {
+              "id": "opt-truffle",
+              "name": "Dark Chocolate Truffle (+₹0)",
+              "price": 0
+            },
+            {
+              "id": "opt-red-velvet",
+              "name": "Red Velvet Cream Cheese (+₹50)",
+              "price": 50
+            },
+            {
+              "id": "opt-black-forest",
+              "name": "Black Forest (+₹0)",
+              "price": 0
+            },
+            {
+              "id": "opt-pineapple-cake",
+              "name": "Fresh Pineapple (+₹0)",
+              "price": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prod-veg-burger",
+      "name": "Veg Burger",
+      "slug": "veg-burger",
+      "description": "Crispy seasoned vegetable patty topped with sliced tomatoes, crisp lettuce, mayo and toasted sesame bun.",
+      "price": 49,
+      "originalPrice": 65,
+      "categoryId": "cat-burgers",
+      "categoryName": "Burgers",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 12,
+      "ingredients": [
+        "Crispy Veg Patty",
+        "Sesame Brioche Bun",
+        "Iceberg Lettuce",
+        "House Burger Sauce"
+      ],
+      "rating": 4.7,
+      "ratingCount": 160
+    },
+    {
+      "id": "prod-cheese-burger",
+      "name": "Cheese Burger",
+      "slug": "cheese-burger",
+      "description": "Crispy veggie patty blanketed with melted American cheddar slice, pickles, caramelized onions and spicy sauce.",
+      "price": 59,
+      "originalPrice": 79,
+      "categoryId": "cat-burgers",
+      "categoryName": "Burgers",
+      "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 14,
+      "ingredients": [
+        "Veg Patty",
+        "American Cheddar Slice",
+        "Caramelized Onion",
+        "Thousand Island Sauce"
+      ],
+      "rating": 4.9,
+      "ratingCount": 240,
+      "customizations": [
+        {
+          "id": "cust-burger-addon",
+          "title": "Make it a Combo",
+          "type": "checkbox",
+          "options": [
+            {
+              "id": "opt-fries-combo",
+              "name": "Add Classic Salted Fries (+₹29)",
+              "price": 29
+            },
+            {
+              "id": "opt-drink-combo",
+              "name": "Add Cold Coffee (+₹39)",
+              "price": 39
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prod-paneer-burger",
+      "name": "Paneer Burger",
+      "slug": "paneer-burger",
+      "description": "Thick marinated cottage cheese steak crispy fried in spiced crumb, served with mint mayo and crunchy slaw.",
+      "price": 59,
+      "originalPrice": 79,
+      "categoryId": "cat-burgers",
+      "categoryName": "Burgers",
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 14,
+      "ingredients": [
+        "Spiced Paneer Steak",
+        "Mint Mayo",
+        "Crisp Lettuce",
+        "Toasted Bun"
+      ],
+      "rating": 4.9,
+      "ratingCount": 195
+    },
+    {
+      "id": "prod-classic-fries",
+      "name": "Classic Fries",
+      "slug": "classic-fries",
+      "description": "Golden crispy potato fingers tossed in sea salt, served hot with tangy tomato ketchup.",
+      "price": 39,
+      "originalPrice": 49,
+      "categoryId": "cat-fries",
+      "categoryName": "French Fries",
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 8,
+      "ingredients": [
+        "Potato Fries",
+        "Sea Salt",
+        "Ketchup Dip"
+      ],
+      "rating": 4.7,
+      "ratingCount": 150
+    },
+    {
+      "id": "prod-peri-peri-fries",
+      "name": "Peri Peri Fries",
+      "slug": "peri-peri-fries",
+      "description": "Crunchy golden fries dusted in zesty, fiery African Peri-Peri spice seasoning mix.",
+      "price": 49,
+      "originalPrice": 65,
+      "categoryId": "cat-fries",
+      "categoryName": "French Fries",
+      "image": "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 8,
+      "ingredients": [
+        "Potato Fries",
+        "Peri Peri Spice Blend",
+        "Dip"
+      ],
+      "rating": 4.9,
+      "ratingCount": 290
+    },
+    {
+      "id": "prod-cheesy-fries",
+      "name": "Cheesy Fries",
+      "slug": "cheesy-fries",
+      "description": "Crispy salted fries smothered under a decadent blanket of warm molten cheddar cheese sauce and herbs.",
+      "price": 59,
+      "originalPrice": 79,
+      "categoryId": "cat-fries",
+      "categoryName": "French Fries",
+      "image": "https://images.unsplash.com/photo-1585109649139-366815a0d713?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 10,
+      "ingredients": [
+        "Potato Fries",
+        "Liquid Cheddar Cheese",
+        "Jalapeno Mayo",
+        "Oregano"
+      ],
+      "rating": 5,
+      "ratingCount": 340
+    },
+    {
+      "id": "prod-veg-momos",
+      "name": "Veg Momos (Steamed)",
+      "slug": "veg-momos",
+      "description": "Delicate steamed dumplings stuffed with finely minced cabbage, carrots, ginger and spring onions (6 pcs).",
+      "price": 49,
+      "originalPrice": 65,
+      "categoryId": "cat-momos",
+      "categoryName": "Momos",
+      "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 12,
+      "ingredients": [
+        "Minced Cabbage",
+        "Carrot",
+        "Spring Onion",
+        "Garlic Chilli Chutney",
+        "Mayonnaise"
+      ],
+      "rating": 4.7,
+      "ratingCount": 180
+    },
+    {
+      "id": "prod-fried-momos",
+      "name": "Fried Momos",
+      "slug": "fried-momos",
+      "description": "Crispy golden fried vegetable dumplings served with spicy garlic momo sauce and creamy dip (6 pcs).",
+      "price": 59,
+      "originalPrice": 75,
+      "categoryId": "cat-momos",
+      "categoryName": "Momos",
+      "image": "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": false,
+      "isAvailable": true,
+      "preparationTimeMinutes": 12,
+      "ingredients": [
+        "Crispy Fried Veg Dumpling",
+        "Hot Red Chutney",
+        "Garlic Mayo Dip"
+      ],
+      "rating": 4.8,
+      "ratingCount": 210
+    },
+    {
+      "id": "prod-kurkure-momos",
+      "name": "Kurkure Momos",
+      "slug": "kurkure-momos",
+      "description": "Our top crunch favorite! Momos coated in a crispy crunchy spiced batter crust fried to deep golden perfection.",
+      "price": 69,
+      "originalPrice": 89,
+      "categoryId": "cat-momos",
+      "categoryName": "Momos",
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 14,
+      "ingredients": [
+        "Crunchy Flake Crust",
+        "Seasoned Veggies",
+        "Tandoori Momo Dip",
+        "Spicy Schezwan"
+      ],
+      "rating": 5,
+      "ratingCount": 380
+    },
+    {
+      "id": "prod-cheese-momos",
+      "name": "Cheese Momos",
+      "slug": "cheese-momos",
+      "description": "Filled with melted mozzarella cheese, sweet corn and subtle herbs inside crispy fried dumpling wrappers.",
+      "price": 69,
+      "originalPrice": 89,
+      "categoryId": "cat-momos",
+      "categoryName": "Momos",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80",
+      "vegType": "VEG",
+      "isBestSeller": true,
+      "isAvailable": true,
+      "preparationTimeMinutes": 14,
+      "ingredients": [
+        "Mozzarella Cheese",
+        "Sweet Corn",
+        "Herb Seasoning",
+        "Spicy Momo Dip"
+      ],
+      "rating": 4.9,
+      "ratingCount": 260
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-seed-1",
+      "orderNumber": "CC-2026-0001",
+      "customerName": "Santosh Tomar",
+      "customerPhone": "8090205081",
+      "customerEmail": "santosh@classiccrush.com",
+      "orderType": "DELIVERY",
+      "items": [
+        {
+          "productId": "prod-triple-chocolate",
+          "productName": "Triple Chocolate",
+          "productImage": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?auto=format&fit=crop&w=800&q=80",
+          "quantity": 2,
+          "unitPrice": 69,
+          "totalPrice": 138,
+          "vegType": "VEG"
+        },
+        {
+          "productId": "prod-cold-coffee",
+          "productName": "Cold Coffee",
+          "productImage": "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80",
+          "quantity": 2,
+          "unitPrice": 49,
+          "totalPrice": 98,
+          "vegType": "VEG"
+        }
+      ],
+      "subtotal": 236,
+      "deliveryFee": 20,
+      "tax": 12,
+      "discount": 0,
+      "grandTotal": 268,
+      "orderStatus": "DELIVERED",
+      "paymentMethod": "UPI",
+      "paymentStatus": "PAID",
+      "paymentId": "pay_sim_001",
+      "deliveryAddress": {
+        "fullName": "Santosh Tomar",
+        "phoneNumber": "8090205081",
+        "houseFlat": "Cabin 4B, Faculty Block",
+        "street": "School of Hotel Management",
+        "area": "University Road",
+        "city": "Lucknow",
+        "pincode": "226001",
+        "landmark": "Near Central Library",
+        "distanceKm": 1.2
+      },
+      "estimatedTimeMinutes": 25,
+      "createdAt": "2026-10-08T03:23:25.256Z",
+      "updatedAt": "2026-10-08T04:23:25.257Z",
+      "deliveryPartnerName": "Rahul Verma",
+      "deliveryPartnerPhone": "+91 9876543210"
+    },
+    {
+      "id": "ord-seed-2",
+      "orderNumber": "CC-2026-0002",
+      "customerName": "Sandeep Singh",
+      "customerPhone": "8318008104",
+      "orderType": "PICKUP",
+      "items": [
+        {
+          "productId": "prod-korean-bun-2pcs",
+          "productName": "Korean Bun (2 Pcs)",
+          "productImage": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+          "quantity": 1,
+          "unitPrice": 59,
+          "totalPrice": 59,
+          "vegType": "VEG"
+        },
+        {
+          "productId": "prod-cheese-masala-patties",
+          "productName": "Cheese Masala Patties",
+          "productImage": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&w=800&q=80",
+          "quantity": 2,
+          "unitPrice": 35,
+          "totalPrice": 70,
+          "vegType": "VEG"
+        },
+        {
+          "productId": "prod-hot-coffee",
+          "productName": "Hot Coffee",
+          "productImage": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+          "quantity": 2,
+          "unitPrice": 30,
+          "totalPrice": 60,
+          "vegType": "VEG"
+        }
+      ],
+      "subtotal": 189,
+      "deliveryFee": 0,
+      "tax": 9,
+      "discount": 0,
+      "grandTotal": 198,
+      "orderStatus": "PREPARING",
+      "paymentMethod": "PAY_AT_CAFE",
+      "paymentStatus": "PENDING",
+      "estimatedTimeMinutes": 15,
+      "createdAt": "2026-10-08T07:53:25.257Z",
+      "updatedAt": "2026-10-08T08:08:25.257Z"
+    }
+  ],
+  "deliverySettings": {
+    "maxDeliveryRadiusKm": 6,
+    "zones": [
+      {
+        "minDistanceKm": 0,
+        "maxDistanceKm": 2,
+        "fee": 20
+      },
+      {
+        "minDistanceKm": 2,
+        "maxDistanceKm": 4,
+        "fee": 30
+      },
+      {
+        "minDistanceKm": 4,
+        "maxDistanceKm": 6,
+        "fee": 40
+      }
+    ],
+    "freeDeliveryThreshold": 299,
+    "minimumOrderValue": 49,
+    "estimatedDeliveryTimeMinutes": 30,
+    "estimatedPickupTimeMinutes": 15,
+    "cafeLatitude": 26.8467,
+    "cafeLongitude": 80.9462,
+    "cafeAddress": "The Classic Crush Bakery & Café, School of Hotel Management Campus",
+    "cafePhone": "+91 8090205081",
+    "cafeAltPhone": "+91 8318008104",
+    "cafeWhatsApp": "918090205081",
+    "cafeEmail": "theclassiccrush@gmail.com",
+    "instagramUrl": "https://instagram.com/theclassiccrush"
+  },
+  "coupons": [
+    {
+      "id": "coup-welcome50",
+      "code": "WELCOME50",
+      "description": "Flat ₹50 OFF on your first order above ₹199",
+      "discountType": "FLAT",
+      "discountValue": 50,
+      "minimumOrderAmount": 199,
+      "isActive": true
+    },
+    {
+      "id": "coup-crush10",
+      "code": "CRUSH10",
+      "description": "10% OFF on all signature desserts & quick bites",
+      "discountType": "PERCENTAGE",
+      "discountValue": 10,
+      "minimumOrderAmount": 99,
+      "maxDiscountAmount": 75,
+      "isActive": true
+    },
+    {
+      "id": "coup-grand100",
+      "code": "GRAND100",
+      "description": "Grand Opening Special: Flat ₹100 OFF on orders above ₹399",
+      "discountType": "FLAT",
+      "discountValue": 100,
+      "minimumOrderAmount": 399,
+      "isActive": true
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "productId": "prod-triple-chocolate",
+      "productName": "Triple Chocolate",
+      "userName": "Aanya Sharma",
+      "rating": 5,
+      "comment": "The best chocolate waffle I have ever tasted! Perfect crispiness and insane amount of chocolate.",
+      "verifiedPurchase": true,
+      "createdAt": "2026-10-06T14:20:00Z"
+    },
+    {
+      "id": "rev-2",
+      "productId": "prod-kurkure-momos",
+      "productName": "Kurkure Momos",
+      "userName": "Rohan Verma",
+      "rating": 5,
+      "comment": "Super crunchy and piping hot even when delivered! The red chutney is to die for.",
+      "verifiedPurchase": true,
+      "createdAt": "2026-10-06T18:10:00Z"
+    },
+    {
+      "id": "rev-3",
+      "productId": "prod-korean-bun-2pcs",
+      "productName": "Korean Bun (2 Pcs)",
+      "userName": "Pooja Tiwari",
+      "rating": 5,
+      "comment": "The garlic butter and cream cheese combo is heavenly. Will order again tomorrow!",
+      "verifiedPurchase": true,
+      "createdAt": "2026-10-07T11:45:00Z"
+    }
+  ],
+  "users": [],
+  "orderCounter": 3
+}

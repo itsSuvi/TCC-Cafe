@@ -1,26 +1,138 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-cream: #FAF6F0;
+  --bg-cream-card: #FFFFFF;
+  --bg-cream-soft: #F4ECE1;
+  --chocolate-dark: #23140C;
+  --chocolate-medium: #3B2416;
+  --chocolate-light: #5A3922;
+  --forest-dark: #162B1D;
+  --forest-medium: #22432D;
+  --forest-light: #2D583B;
+  --gold-accent: #C89B2B;
+  --gold-light: #E7C86A;
+  --gold-dark: #9E7719;
+  --text-dark: #1E1B18;
+  --text-muted: #6B635B;
+  --border-cream: #EADDCF;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+  --color-cream: #FAF6F0;
+  --color-cream-card: #FFFFFF;
+  --color-cream-soft: #F4ECE1;
+  --color-chocolate-dark: #23140C;
+  --color-chocolate-medium: #3B2416;
+  --color-chocolate-light: #5A3922;
+  --color-forest-dark: #162B1D;
+  --color-forest-medium: #22432D;
+  --color-forest-light: #2D583B;
+  --color-gold: #C89B2B;
+  --color-gold-light: #E7C86A;
+  --color-gold-dark: #9E7719;
+  --color-text-dark: #1E1B18;
+  --color-text-muted: #6B635B;
+  --color-border-cream: #EADDCF;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-cream);
+  color: var(--text-dark);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-serif-title {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  letter-spacing: -0.01em;
+}
+
+/* Custom Gold Gradient */
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #E7C86A 0%, #C89B2B 50%, #9E7719 100%);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #E7C86A 0%, #C89B2B 50%, #9E7719 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-chocolate-gradient {
+  background: linear-gradient(135deg, #3B2416 0%, #23140C 100%);
+}
+
+.bg-forest-gradient {
+  background: linear-gradient(135deg, #22432D 0%, #162B1D 100%);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF6F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9C8B5;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B39B82;
+}
+
+/* Animations */
+@keyframes pulseSubtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.03); }
+}
+
+.animate-pulse-subtle {
+  animation: pulseSubtle 3s infinite ease-in-out;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-float {
+  animation: float 4s infinite ease-in-out;
+}
+
+/* Veg / Non-Veg Indicator styling */
+.veg-icon-box {
+  width: 16px;
+  height: 16px;
+  border: 1.5px solid #16A34A;
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+.veg-icon-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #16A34A;
+}
+
+.non-veg-icon-box {
+  width: 16px;
+  height: 16px;
+  border: 1.5px solid #DC2626;
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+.non-veg-icon-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #DC2626;
 }
